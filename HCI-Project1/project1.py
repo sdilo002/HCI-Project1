@@ -147,7 +147,6 @@ def main():
         st.header("Exit Questionnaire")
 
         with st.form("exit_form"):
-            # TODO: likert scale or other way to have an exit questionnaire
             satisfaction = st.slider("Overall satisfaction (1=Very Low, 5=Very High)",
                                     min_value=1,
                                     max_value=5,
